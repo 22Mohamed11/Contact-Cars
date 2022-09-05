@@ -1,0 +1,364 @@
+/**Start by navbar**/
+.navbar{
+    padding: 1rem 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddcdc;
+    display: flex;
+    left: 0;
+    right: 0;
+}
+.con ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+nav ul li {
+    display: block;
+}
+ul{
+    display:block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 10px;
+}
+li{
+    display: list-item;
+    text-align:left;
+    padding-left: 20px;
+}
+.con{
+    width: 100%;
+    padding-left: 20%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.con2{
+    align-items: center;
+    display: flex;
+}
+.m0{
+    margin-inline-end: 3rem;
+}
+.m00{
+    color: #00263c;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+}
+.m1{
+    display: inline-block;
+}
+#h{
+    position: relative;
+    padding-inline-end: 3rem;
+}
+#h button{
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+#h1 button{
+    border: none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+#mm{
+    display: none;
+    background-color: white;
+    padding-top: 3px;
+    width: 150px;
+    border: 1px solid rgba(18, 9, 97, 0.911);
+    border-radius: 10px;
+    z-index: 1;
+    position: absolute;
+}
+#mm a{
+    margin-top: 10px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    color: rgb(0, 0, 255);
+}
+#mm a:hover{
+    background-color: rgba(164, 196, 255,.5);
+}
+#mm1{
+    display: none;
+    background-color: white;
+    padding-top: 3px;
+    width: 190px;
+    border: 1px solid rgba(18, 9, 97, 0.911);
+    border-radius: 10px;
+    z-index: 2;
+    position: absolute;
+}
+#mm1 a{
+    margin-top: 10px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    color: rgb(0, 0, 255);
+}
+#mm1 a:hover{
+    background-color: rgba(164, 196, 255,.5);
+}
+.m11{
+    background-color: #fff;
+    list-style: none;
+    border: 2px solid rgba(10, 44, 66, 0.911);
+    border-radius: 2px;
+}
+.m12{
+border-top: .1px solid rgba(10,38,58,.10980392156862745);
+}
+#a1 i{
+    color: #fe821e;
+}
+input{
+    border: none;
+    width: 200px;
+    height:20px;
+    margin-bottom: 3px;
+}
+input:active{
+    border: none;
+    border-radius: 3px;
+}
+#a1:hover{
+    border: 1px solid rgb(38, 107, 255);
+}
+::placeholder{
+    padding-left: 15px;
+    margin-bottom: 3px;
+}
+#a1{
+    border:1px solid rgb(192, 192, 192);
+    padding-top: 4px;
+    padding-left: 20px;
+    border-radius: 5px;
+    width:110%;
+    height: 30px;
+}
+.r{
+    margin-inline-end: 3rem;
+    margin-left: auto;
+}
+.r1{
+    padding-bottom: .25rem; 
+}
+.r a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #0033c0;
+}
+#a2{
+    padding-top: 15px;
+    padding-right:20%;
+}
+/**End navbar**/
+/**Start by Login**/
+#abd{
+    width: 35%;
+    margin: auto;
+    margin-top: 15px;
+}
+.d1{
+    width: 85%;
+    margin: auto;
+	border-radius: 10px;
+	border:1px solid rgb(194, 194, 194);
+}
+.s1{
+    margin-top: 30px;
+    display:inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+.s1 a{
+    margin-left: 120px;
+    color: black;
+}
+.li-1,
+.li-2,
+.li-3,
+.li-google{
+    text-decoration: none;
+}
+h5{
+    color: blue;
+    text-align: center;
+}
+.lab label{
+    font-size: 14px;
+    margin-left: 1.5%;
+}
+.lab input{
+    width: 96%;
+    height: 40px;
+    border: none;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-left: 1.5%;
+}
+.lab input:hover{
+    border: 1px solid rgb(66, 66, 255);
+}
+.lab input::placeholder{
+    padding-left: 30px;
+    color: rgb(179, 179, 179);
+}
+.s2 a{
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+.submit{
+    width: 97%;
+    height: 40px;
+	padding: 13px 0px 15px 0px;
+	margin: 8px;
+	color: white;
+    border: none;
+	background-color: #ff7000;
+    font-size: 16px;
+}
+.submit:hover{
+    background-color: rgba(235, 89, 4, 0.9);
+}
+#mom p{
+    text-align: center;
+}
+.sos{
+    margin-top: 10px;
+    color: blue;
+}
+.s3 img{
+    width: 10%;
+    height: 25px;
+    border-radius: 15px;
+    padding-right: 5px;
+}
+.s3{
+    width: 98%;
+	text-align: center;
+	background-color: #e9e9e9d5;
+    border-radius: 3px;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    padding-top: 3px;
+	height: 23%;
+    padding-bottom: 10px;
+}
+button{
+    width: 45%;
+	height: 45px;
+	background-color: white;
+	border: 10px;
+	margin-right: 5px;
+}
+.lab-google{
+    position: relative;
+	bottom: 7px;
+	left: 5px;
+}
+/**End Login**/
+/**Start by footer**/
+#footer{
+    margin-top: 15px;
+    padding-top: 5%;
+    padding-bottom: 20px;
+    background-color: rgb(12, 8, 75);
+}
+#me{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#footer a{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 8px;
+    margin-right: 50px;
+}
+#footer ul li{
+    list-style-type: none;
+}
+#footer p{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+#footer input{
+    margin-top: 15px;
+    width: 85%;
+    height: 40px;
+    border: none;
+    background-color: rgb(12, 8, 75);
+    border: 1px solid red;
+}
+#footer input:active{
+    border: 3px solid rgb(17, 14, 189);
+}
+#footer textarea{
+    width: 85%;
+    height: 100px;
+    background-color: rgb(12, 8, 75);
+    margin-top: 20px;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+#footer textarea::placeholder{
+    padding-top: 8px;
+}
+#footer textarea:active{
+    border: 3px solid rgb(17, 14, 189);
+}
+.nn{
+    margin-top: 17px;
+}
+#footer button{
+    color: white;
+    background-color:rgb(243, 139, 2);
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#footer button:hover{
+    background-color: rgba(235, 89, 4, 0.9);
+}
+#icon i{
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 40px;
+}
+.q{
+    color: rgb(53, 81, 243);
+}
+.q1{
+    background-color: rgb(36, 240, 255);
+    border-radius: 15%;
+}
+.q2{
+    color: rgb(255, 251, 7);
+}
+.q3{
+    color: red;
+}
+.q4{
+    color: green;
+}
+.me{
+    color: white;
+    text-align: center;
+}
+/**End footer**/
